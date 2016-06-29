@@ -1,0 +1,39 @@
+#wrapper {
+	width: 970px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+form {
+	display: inline-block;
+	background-color: lightgray;
+	width: 445px;
+	padding: 10px;
+
+}
+#card-layout {
+	display: inline-block;
+	vertical-align: top;
+
+}
+#card-layout div {
+
+	width: 320px;
+	height: 100px;
+	border: 2px solid black;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#card-layout h6 {
+	display: none;
+}
+
+#left {
+	width: 500px;
+}
+
+
+
+
+

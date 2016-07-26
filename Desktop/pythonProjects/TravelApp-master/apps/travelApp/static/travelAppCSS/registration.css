@@ -1,0 +1,104 @@
+*{
+	font-family: 'didot';
+}
+
+body{
+	text-align: center;
+	/*background-color: whitesmoke;*/
+	padding-top: 0px;
+	text-align: center;
+
+}
+
+
+form{
+	display: inline-block;
+	/*margin-left: 50px;*/
+	margin-top: 20px;
+}
+
+
+
+.input-sm{
+	height: 20px;
+	width: 100px;
+}
+
+.btn{
+	line-height: 5px;
+	background-color: silver;
+	border: transparent;
+	align-self: right;
+	position: absolute;
+
+}
+
+table, th, td{
+	text-align: left; 
+	margin: auto;
+
+
+}
+	td{
+		font-size: 1.2em;
+	}
+
+
+#container{
+	display: block;
+	
+	margin: 0 auto;
+		
+
+}
+.homepage{
+
+	opacity: .9;
+	display: block;
+	margin: 0 auto;
+}
+
+.here{
+
+	position: fixed;
+	/*display: block;*/
+	margin-top: -600px;
+	
+	background: rgba(245, 245, 245, .5);
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	width: 100%;
+	/*margin-left: 350px;*/
+	padding-bottom: 20px;
+	opacity: .9;
+
+}
+
+.registrationheader h1{
+
+	position: fixed;
+	/*display: block;*/
+	margin-top: -675px;
+	font-size: 3em;
+	font-weight: bolder;
+	
+	/*background: rgba(245, 245, 245, .5);*/
+	/*border-top: 3px solid black;*/
+	
+	width: 100%;
+	/*margin-left: 350px;*/
+	padding-bottom: 20px;
+	opacity: .9;
+
+}
+
+
+.btn{
+	line-height: 15px; 
+	border-color: whitesmoke;
+	background-color: silver;
+	margin-left: 125px;
+	
+}
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Card</title>
+	<link rel="stylesheet" type="text/css" href="contact_card.css">
+	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script> 
+  <script type="text/javascript"></script>
+  <script>
+  	$(document).ready(function() {
+		  $("button").click(function() {
+        var first_name = $('#wrapper form .one:text').val();
+        var last_name = $('#wrapper form .two:text').val();
+        var description = $('#wrapper form textarea').val();
+
+        $("#card-layout").append( "<div><h2>" + first_name + " " + last_name + "</h2> <p>Click for description!</p> <h6>" + description + "</h6></div>"); 
+      });
+      $('#card-layout').on("click", "div", function()  {
+        console.log(this); 
+        $(this).find("h2, p").toggle();
+        $(this).find("h6").toggle();
+      });
+  	});
+  </script>
+</head>
+<body>
+<div id="wrapper">
+  <form>
+    	<label>First Name:</label> <input type="text" name="first_name" class="one"> <br>
+    	<label>Last Name:</label> <input type="text" name="last_name" class="two"><br>
+    	<br>
+    	<label>Description:</label><br>
+    	<textarea rows="4" cols="50" name="comment" placeholder="Enter description" class="three" ></textarea><br>
+  </form>
+  <button type="submit">Add User</button>
+<div id="card-layout">
+</div>
+</div> <!-- end of wrapper-->
+</body>
+</html>
